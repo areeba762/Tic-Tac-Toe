@@ -101,8 +101,8 @@ class _GamePageState extends State<GamePage> {
         color: occupied[index].isEmpty
             ? Colors.black26
             : occupied[index] == PLAYER_X
-                ? Colors.blue
-                : Colors.orange,
+                ? Colors.tealAccent
+                : Colors.green,
         margin: const EdgeInsets.all(8),
         child: Center(
           child: Text(
